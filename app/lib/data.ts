@@ -48,6 +48,7 @@ export async function fetchLatestInvoices() {
   }
 }
 
+// 服务器组件，通过直接在服务器上进行sql查询减少通过api查询的时间
 export async function fetchCardData() {
   try {
     // You can probably combine these into a single SQL query
